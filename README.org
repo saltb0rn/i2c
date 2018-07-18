@@ -15,6 +15,7 @@ Hello, world!
 ** #lang i2c/reverse
    char -> integer
 #+BEGIN_SRC scheme
+#lang i2c/reverse
 Hello, world!
 #+END_SRC
 
