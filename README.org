@@ -1,0 +1,35 @@
+* i2c: integer -> char
+
+** #lang i2c
+   integer -> char
+#+BEGIN_SRC scheme
+#lang i2c
+72 101 108 108 111 44
+32 119 111 114 108 100 33
+#+END_SRC
+
+#+BEGIN_SRC shell
+Hello, world!
+#+END_SRC
+
+** #lang i2c/reverse
+   char -> integer
+#+BEGIN_SRC scheme
+Hello, world!
+#+END_SRC
+
+#+BEGIN_SRC shell
+72
+101
+108
+108
+111
+44
+32
+119
+111
+114
+108
+100
+33
+#+END_SRC
